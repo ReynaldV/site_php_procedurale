@@ -1,0 +1,84 @@
+body {
+    background-color: #bbbbbb;
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: left;
+}
+/*img{
+    position: relative;
+    width:40%;
+    height: auto;
+}
+article {
+    width:50%;
+    position: relative;
+    float:right;
+}
+button{
+    margin:5px;
+}*/
+
+img{
+    margin:10px;
+
+    /*    position: relative;
+        width:40%;
+        height: auto;*/
+}
+div.row {
+    background-color: #ededed;
+    margin:20px 0;
+    border-radius: 2px;
+
+    /*    width:50%;*/
+    /*    position: relative;
+        float:right;*/
+}
+button{
+    margin:5px;
+}
+p, h1,h2,h3,h4{
+    padding-left: 20px;
+    text-align: left;
+}
+/*
+table {
+    border-collapse:collapse;
+    width:90%;
+}
+td {
+    border:1px solid black;
+    width:20%;
+
+    text-align:center;
+}
+*/
+table{
+    margin-top: 20px;
+}
+td {
+    border:1px solid #dddddd;
+}
+td.contenu {
+    width:30%;
+}
+img.imageTab {
+    width: auto;
+    max-height: 200px;
+}
+td.imageTd {
+    vertical-align: middle!important;
+    /*    background-color: #F9F9F9;*/
+}
+.redBg{
+    background-color: #f9c7c7!important;
+}
+/*
+table {
+    border-collapse:collapse;
+    width:90%;
+}
+
+*/

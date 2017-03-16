@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule edito$ index.php
+RewriteRule magazine$ index.php?page=magazine
+RewriteRule catalogue$ index.php?page=catalogue
+RewriteRule contact$ index.php?page=contact
+RewriteRule magazine/([_a-z0-9-]+)-([0-9]+)$ index.php?page=magazine&action=detail&id=$2
+RewriteRule categorie/([_a-z0-9-]+)-([0-9]+)$ index.php?page=catalogue&action=categorie&id=$2
+RewriteRule produit/([_a-z0-9-]+)-([0-9]+)$ index.php?page=catalogue&action=detail&id=$2
